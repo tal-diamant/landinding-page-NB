@@ -1,0 +1,99 @@
+.features-1 {
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+.features-1-row {
+    display: flex;
+    gap: 96px;
+    justify-content: center;
+}
+
+.features-1 h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101828;
+    margin: 16px 0;
+}
+
+.features-1-intro {
+    text-align: center;
+}
+
+.features-1-subheading {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00798C;
+    margin: 0;
+}
+
+.features-1-main-heading {
+    width: 768px;
+    margin: 12px auto;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #101828;
+    letter-spacing: -0.02em;
+}
+
+.features-1-intro-paragraph {
+    width: 891px;
+    margin: 20px auto 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+}
+
+.features-1-side-heading {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin-bottom: 24px;
+}
+
+.features-1-row {
+    display: flex;
+    align-items: center;
+}
+
+.features-1-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.features-1-image {
+    width: 46%;
+}
+
+.features-1-info-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #475467;
+    margin: 0;
+}
+
+.features-1-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 8.33px;
+}
+
+.features-1-list-item {
+    display: flex;
+    align-items: center;
+    gap: 14.33px;
+}
+
+.features-1-icon-and-text {
+    
+}
