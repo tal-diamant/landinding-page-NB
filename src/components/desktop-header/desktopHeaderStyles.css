@@ -1,0 +1,94 @@
+.desktop-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0;
+    border-bottom: 1px solid #F2F4F7;
+}
+
+.desktop-header {
+    width: 1280px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.desktop-logo-Nav-container {
+    display: flex;
+    gap: 60px;
+}
+
+.desktop-logo {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #475467;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+    cursor: pointer;
+}
+
+.desktop-nav {
+    display: flex;
+    align-items: center;
+}
+
+.desktop-nav-home {
+    margin-right: 44px;
+}
+
+.desktop-nav-item {
+    margin-right: 56px;
+}
+
+.active {
+    padding: 8px 12px;
+    background-color:#E6F2F4;
+    border-radius: 8px;
+    color: black;
+}
+
+.desktop-nav-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.desktop-login-btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+}
+
+.desktop-signup-btn {
+    padding: 10px 18px;
+    border-radius: 8px;
+    background-color: #00798C;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}

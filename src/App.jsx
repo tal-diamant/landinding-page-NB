@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Header from "./components/header/header";
+import DesktopHeader from "./components/desktop-header/desktopHeader";
 import Home from "./home";
 import Desktop from "./desktop";
 
@@ -20,7 +21,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header page={page} goToPage={goToPage}/>
+      {page === 'home'? <Header page={page} goToPage={goToPage}/>: <DesktopHeader page={page} goToPage={goToPage} />}
       {page === 'home'? <Home />: <Desktop />}
     </div>
   );

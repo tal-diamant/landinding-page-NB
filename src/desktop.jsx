@@ -16,8 +16,8 @@ function Desktop() {
       <DesktopMetrics />
       <DesktopContent />
       <Divider />
-      <DesktopContact /> {/* <- */}
-      <CTA />
+      <DesktopContact />
+      <CTA /> {/* <-- */}
       <Footer />
     </div>
   );

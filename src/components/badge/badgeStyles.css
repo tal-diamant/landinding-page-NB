@@ -12,10 +12,11 @@
     border-radius: 16px;
     gap: 12px;
 
+    font-family: 'Inter';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    /* text-align: center; */
     color: #00798C;
 }
 
@@ -35,8 +36,18 @@
     border-radius: 16px;
 }
 
-.text-and-icon {
+.badge-text-and-icon {
     display: flex;
     align-items: center;
     gap: 4px;
+}
+
+.badge-outline {
+    background-color: transparent;
+    color: #00798C;
+    border: 1.5px solid #00798C;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
 }
