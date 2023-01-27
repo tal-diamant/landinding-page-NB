@@ -1,0 +1,48 @@
+.desktop-content {
+    padding-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.desktop-content-subheading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #00798C;
+    margin: 0 0 12px;
+}
+
+.desktop-content-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0;
+}
+
+.desktop-content-container {
+    display: flex;
+    justify-content: center;
+    gap: 101px;
+}
+
+.desktop-content-text {
+    width: 540px;
+}
+
+.desktop-content-text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #475467;
+    margin: 0;
+}

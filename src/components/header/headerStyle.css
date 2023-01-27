@@ -33,6 +33,18 @@ header a {
     color: #475467;
 }
 
+header button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+    cursor: pointer;
+}
+
 .nav {
     width: 330px;
     display: flex;

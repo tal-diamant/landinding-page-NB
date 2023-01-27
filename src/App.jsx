@@ -1,51 +1,27 @@
 import { useState } from "react";
 
 import Header from "./components/header/header";
-import Hero from "./components/hero/hero";
-import SocialProof from "./components/social proof/socialProof";
-import Divider from "./components/divider/divder";
-import Features1 from "./components/features 1/features-1";
-import Features2 from "./components/features 2/features-2";
-import Metrics from "./components/metrics/metrics";
-import Features3 from "./components/features 3/features-3";
-import FAQ from "./components/FAQ/faq";
-import CTA from "./components/cta/cta";
-import Footer from "./components/footer/footer";
-import Modal from "./components/modal/modal";
+import Home from "./home";
+import Desktop from "./desktop";
 
 import { modalsData } from "./mock data/modal-data";
 
 import "./App.css";
 
 function App() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [selectedModal, setSelectedModal] = useState(0);
+  const [page, setPage] = useState('home');
 
-  const openModal = (modal) => {
-    setSelectedModal(modal);
-    setModalOpen(true);
-  }
-
-  const closeModal = () => {
-    setModalOpen(false);
+  const goToPage = (page) => {
+    if(page === 'home')
+      setPage('home');
+    else if(page === 'desktop')
+      setPage('desktop');
   }
 
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <SocialProof />
-      <Divider />
-      <Features1 />
-      <Features2 />
-      <Metrics />
-      <Features3 openModal={openModal}/>
-      <Divider />
-      <FAQ />
-      <Divider />
-      <CTA />
-      <Footer />
-      {modalOpen && <Modal data={modalsData[selectedModal]} close={closeModal}/>}
+      <Header page={page} goToPage={goToPage}/>
+      {page === 'home'? <Home />: <Desktop />}
     </div>
   );
 }

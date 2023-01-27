@@ -1,6 +1,6 @@
 import "./headerStyle.css";
 
-export default function Header() {
+export default function Header({ page, goToPage }) {
   return (
     <header className="header-container">
       <div className="header">
@@ -9,8 +9,8 @@ export default function Header() {
             <img src="logo.svg" alt=" N/B logo" />
           </div>
           <nav className="nav">
-            <a className="active" href="#">Home</a>
-            <a className="" href="#">About</a>
+            <button className="active" href="#" onClick={() => goToPage('home')}>Home</button>
+            <button className="" href="#" onClick={() => goToPage('desktop')}>About</button>
             <a className="" href="#">Pricing</a>
             <a className="" href="#">Contact</a>
           </nav>

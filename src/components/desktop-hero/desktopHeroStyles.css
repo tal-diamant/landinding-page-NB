@@ -1,0 +1,42 @@
+.desktop-hero {
+    padding: 96px 0;
+}
+
+.desktop-hero-subheading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00798C;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.desktop-hero-heading-support-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 64px;
+}
+
+.desktop-hero-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0;
+}
+
+.desktop-hero-support-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+    margin: 12px;
+    width: 48.6%;
+}
