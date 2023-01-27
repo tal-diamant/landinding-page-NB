@@ -5,22 +5,22 @@ export const faqs = [
     },
     {
         question: 'Can I change my plan later?',
-        answer: '',
+        answer: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
     },
     {
         question: 'What is your cancellation policy?',
-        answer: '',
+        answer: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
     },
     {
         question: 'Can other info be added to an invoice?',
-        answer: '',
+        answer: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
     },
     {
         question: 'How does billing work?',
-        answer: '',
+        answer: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
     },
     {
         question: 'How do I change my account email?',
-        answer: '',
+        answer: 'Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.',
     },
 ]

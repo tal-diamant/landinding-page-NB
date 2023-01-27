@@ -17,7 +17,7 @@ export default function Cta({page}) {
 
         <div>
           <div className="cta-actions">
-            <a href="#">{page === "desktop"? desktopAction: homeAction}</a>
+            <a href="#" className="btn">{page === "desktop"? desktopAction: homeAction}</a>
           </div>
         </div>
       </div>

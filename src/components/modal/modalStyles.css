@@ -82,5 +82,6 @@
     position: absolute;
     top: 16px;
     right: 16px;
+    border-radius: 8px;
     cursor: pointer;
 }

@@ -20,11 +20,11 @@ export default function Modal({ data, close }) {
           <p className="modal-text">{data.text}</p>
         </div>
         <div className="modal-actions">
-          <button className="modal-ok-btn" onClick={() => close()}>
+          <button className="modal-ok-btn btn" onClick={() => close()}>
             Ok
           </button>
         </div>
-        <div className="modal-close-btn" onClick={() => close()}>
+        <div className="modal-close-btn x-btn" onClick={() => close()}>
           <img src="modal-close-icon.png" alt="close icon" />
         </div>
       </div>

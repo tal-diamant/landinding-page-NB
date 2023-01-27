@@ -13,10 +13,10 @@ export default function Footer({ page }) {
               <img src="small-logo.png" alt="logo" />
             </div>
             <nav className="footer-links">
-              <a href="#">Terms</a>
-              <a href="#">GDPR & Privacy</a>
-              <a href="#">Cookies</a>
-              <a href="#">Legal Notice</a>
+              <a className="link" href="#">Terms</a>
+              <a className="link" href="#">GDPR & Privacy</a>
+              <a className="link" href="#">Cookies</a>
+              <a className="link" href="#">Legal Notice</a>
             </nav>
           </div>
 
@@ -25,7 +25,7 @@ export default function Footer({ page }) {
             <form action="">
               <div className="footer-email-capture">
                 <input className="footer-input" placeholder="Enter your email" type="email" />
-                <button className="footer-subscribe-btn">Subscribe</button>
+                <button className="footer-subscribe-btn btn">Subscribe</button>
               </div>
             </form>
           </div>

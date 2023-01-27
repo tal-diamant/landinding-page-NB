@@ -20,3 +20,31 @@
 .bold {
     font-weight: bold;
 }
+
+.btn {
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6941c6;
+}
+
+.link {
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: black;
+}
+
+input:focus {
+    outline: 4px solid #f4ebff;
+}
+
+.x-btn {
+    transition: background-color 0.3s;
+}
+
+.x-btn:hover {
+    background-color: #f9fafb;
+}

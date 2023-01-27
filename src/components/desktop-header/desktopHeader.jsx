@@ -18,7 +18,7 @@ export default function DesktopHeader({ page, goToPage }) {
 
         <div className="desktop-nav-actions">
           <a className="desktop-login-btn" href="#">Log in</a>
-          <a className="desktop-signup-btn" href="#">Sign up</a>
+          <a className="desktop-signup-btn btn" href="#">Sign up</a>
         </div>
       </div>
     </header>

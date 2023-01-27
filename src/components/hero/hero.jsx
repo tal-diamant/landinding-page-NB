@@ -21,7 +21,7 @@ export default function Hero() {
             <img src="calendar.svg" alt="calendar icon" />
             Book a demo
           </a>
-          <a className="hero-signup-btn" href="#">Sign up</a>
+          <a className="hero-signup-btn btn" href="#">Sign up</a>
         </div>
         <div>
           <img src="Macbook Pro 16 mockup.png" alt="Macbook Pro 16"/>
