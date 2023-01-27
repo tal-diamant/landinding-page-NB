@@ -1,0 +1,78 @@
+.FAQ {
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    text-align: center;
+}
+
+.faq-heading-and-support-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.faq-main-heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin: 0;
+}
+
+.faq-support-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+    margin: 0;
+}
+
+.faq-faqs {
+    width: 768px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.faq-item {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+}
+
+.faq-item ~ .faq-item {
+    padding-top: 24px;
+    border-top: 1px solid #EAECF0;
+}
+
+.faq-item-text-and-support-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.faq-item-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    margin: 0;
+}
+
+.faq-item-support-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #475467;
+    text-align: left;
+    margin: 8px 0 0;
+}
+
+.faq-item-expand-fold-icon {
+    text-align: right;
+}

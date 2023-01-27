@@ -6,6 +6,9 @@ import Features1 from "./components/features 1/features-1";
 import Features2 from "./components/features 2/features-2";
 import Metrics from "./components/metrics/metrics";
 import Features3 from "./components/features 3/features-3";
+import FAQ from "./components/FAQ/faq";
+import CTA from "./components/cta/cta";
+import Footer from "./components/footer/footer";
 import './App.css'
 
 function App() {
@@ -18,12 +21,12 @@ function App() {
       <Features1 />
       <Features2 />
       <Metrics />
-      <Features3 /> {/* <-- */}
+      <Features3 />
       <Divider />
-      {/* FAQ */}
+      <FAQ />
       <Divider />
-      {/* CTA */}
-      {/* Footer */}
+      <CTA />
+      <Footer /> {/* <-- */}
     </div>
   )
 }

@@ -1,16 +1,11 @@
+import Badge from "../badge/badge";
 import "./heroStyle.css";
 
 export default function Hero() {
   return (
-    <section>
+    <section className="hero">
       <div className="container hero-content">
-        <div className="hero-badge">
-          <div className="hero-badge-feature">New feature</div>{" "}
-          <div className="to-dashboard-btn">
-            Check out the team dashboard{" "}
-            <img src="arrow-right.png" alt="arrow" />
-          </div>
-        </div>
+        <Badge text={'Check out the team dashboard'} type={'New feature'} icon={'arrow-right.png'}/>
         <h1>
           Agile solution for alternatives production and sourcing for the
           textile industry
