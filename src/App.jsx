@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Header from "./components/header/header";
 import Hero from "./components/hero/hero";
 import SocialProof from "./components/social proof/socialProof";
@@ -9,9 +11,25 @@ import Features3 from "./components/features 3/features-3";
 import FAQ from "./components/FAQ/faq";
 import CTA from "./components/cta/cta";
 import Footer from "./components/footer/footer";
-import './App.css'
+import Modal from "./components/modal/modal";
+
+import { modalsData } from "./mock data/modal-data";
+
+import "./App.css";
 
 function App() {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [selectedModal, setSelectedModal] = useState(0);
+
+  const openModal = (modal) => {
+    setSelectedModal(modal);
+    setModalOpen(true);
+  }
+
+  const closeModal = () => {
+    setModalOpen(false);
+  }
+
   return (
     <div className="App">
       <Header />
@@ -21,14 +39,15 @@ function App() {
       <Features1 />
       <Features2 />
       <Metrics />
-      <Features3 />
+      <Features3 openModal={openModal}/>
       <Divider />
       <FAQ />
       <Divider />
       <CTA />
       <Footer />
+      {modalOpen && <Modal data={modalsData[selectedModal]} close={closeModal}/>}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

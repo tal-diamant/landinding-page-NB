@@ -21,7 +21,7 @@ export default function Features1() {
       {/* half half sections */}
       {/* 1 */}
       <div className="n-container">
-        <div class="features-1-row">
+        <div className="features-1-row">
           {/* info */}
           <div className="features-1-info">
             <div className="features-1-icon-and-text">
@@ -63,7 +63,7 @@ export default function Features1() {
 
       {/* 2 */}
       <div className="n-container">
-        <div class="features-1-row">
+        <div className="features-1-row">
           {/* image */}
           <div className="features-1-image rtl">
             <img src="features 1 mockup 2.png" alt="dashboard image" />
@@ -104,7 +104,7 @@ export default function Features1() {
 
       {/* 3 */}
       <div className="n-container">
-        <div class="features-1-row">
+        <div className="features-1-row">
           {/* info */}
           <div className="features-1-info">
             <div className="features-1-icon-and-text">

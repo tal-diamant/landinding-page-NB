@@ -1,0 +1,86 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-box {
+    width: 687px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 32px;
+    isolation: isolate;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08), 0px 8px 8px -4px rgba(16, 24, 40, 0.03);
+    border-radius: 12px;
+}
+
+.modal-content {
+    width: 626px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-icon-heading {
+    width: 586px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.modal-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #101828;
+    margin: 0;
+}
+
+.modal-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #475467;
+    margin: 0;
+}
+
+.modal-actions {
+    width: 100%;
+}
+
+.modal-ok-btn {
+    width: 100%;
+    padding: 10px 18px;
+    background: #00798C;
+    border: 1px solid #00798C;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.modal-close-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}

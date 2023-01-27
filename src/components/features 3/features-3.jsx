@@ -1,7 +1,7 @@
 import Badge from "../badge/badge";
 import "./features-3-styles.css";
 
-export default function Features3() {
+export default function Features3({ openModal }) {
   return (
     <section className="features-3">
       {/* top */}
@@ -34,7 +34,9 @@ export default function Features3() {
             </div>
 
             <div className="features-3-feature-heading-and-support-text">
-              <h3 className="features-3-feature-heading">A Comprehensive Look at Sales Performance</h3>
+              <h3 className="features-3-feature-heading">
+                A Comprehensive Look at Sales Performance
+              </h3>
               <p className="features-3-feature-support-text">
                 Provides an in-depth analysis that covers forecasting, tracking,
                 analyzing sales data, identifying trends, setting targets, and
@@ -43,7 +45,9 @@ export default function Features3() {
             </div>
 
             <div className="features-3-feature-subheading">
-              <a href="#">Read more</a>
+              <button href="" onClick={() => openModal(0)}>
+                Read more
+              </button>
             </div>
           </div>
 
@@ -54,7 +58,9 @@ export default function Features3() {
             </div>
 
             <div className="features-3-feature-heading-and-support-text">
-              <h3 className="features-3-feature-heading">A Guide to Developing an Effective Restocking Strategy</h3>
+              <h3 className="features-3-feature-heading">
+                A Guide to Developing an Effective Restocking Strategy
+              </h3>
               <p className="features-3-feature-support-text">
                 A comprehensive guide that covers your demand, determining
                 reorder points, and managing lead times. It provides practical
@@ -63,7 +69,9 @@ export default function Features3() {
             </div>
 
             <div className="features-3-feature-subheading">
-              <a href="#">Read more</a>
+              <button href="" onClick={() => openModal(1)}>
+                Read more
+              </button>
             </div>
           </div>
 
@@ -74,7 +82,9 @@ export default function Features3() {
             </div>
 
             <div className="features-3-feature-heading-and-support-text">
-              <h3 className="features-3-feature-heading">Integrating an ESG Strategies for Long-term Success</h3>
+              <h3 className="features-3-feature-heading">
+                Integrating an ESG Strategies for Long-term Success
+              </h3>
               <p className="features-3-feature-support-text">
                 Guiding organizations looking to embed sustainability into their
                 business. This comprehensive guide covers the why, what and how
@@ -83,7 +93,9 @@ export default function Features3() {
             </div>
 
             <div className="features-3-feature-subheading">
-              <a href="#">Read more</a>
+              <button href="" onClick={() => openModal(2)}>
+                Read more
+              </button>
             </div>
           </div>
         </div>
