@@ -26,7 +26,7 @@ function App() {
       <FAQ />
       <Divider />
       <CTA />
-      <Footer /> {/* <-- */}
+      <Footer />
     </div>
   )
 }
