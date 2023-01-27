@@ -1,6 +1,8 @@
 import "./footerStyles.css";
 
-export default function Footer() {
+export default function Footer({ page }) {
+  const homeCopyRights = "© NewBrands™ All Rights Reserved, 2017 - 2023.";
+  const desktopCopyRights = "© NewBrands™ All Rights Reserved, 2023.";
   return (
     <section className="footer">
       {/* row 1 */}
@@ -33,7 +35,7 @@ export default function Footer() {
       {/* row 2 */}
       <div className="n-container">
         <div className="footer-content-bottom">
-          <span className="footer-copyrights">© NewBrands™ All Rights Reserved, 2017 - 2023.</span>
+          <span className="footer-copyrights">{page === 'desktop'? desktopCopyRights:homeCopyRights}</span>
           <div className="footer-social-links">
             <img src="instagram-icon.png" alt="instagram-icon" />
             <img src="linkedin-icon.png" alt="linkedin-icon" />

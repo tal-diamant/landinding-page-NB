@@ -17,8 +17,8 @@ function Desktop() {
       <DesktopContent />
       <Divider />
       <DesktopContact />
-      <CTA /> {/* <-- */}
-      <Footer />
+      <CTA page="desktop" />
+      <Footer page="desktop" />
     </div>
   );
 }
